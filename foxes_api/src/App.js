@@ -1,11 +1,11 @@
 // src/App.js
 import React from 'react';
-import FoxGallery from './components/FoxGallery';
+import AnimalGallery from './components/AnimalGallery';
 
 function App() {
   return (
     <div>
-      <FoxGallery />
+      <AnimalGallery />
     </div>
   );
 }
