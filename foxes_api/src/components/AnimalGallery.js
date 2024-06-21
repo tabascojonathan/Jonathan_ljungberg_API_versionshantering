@@ -46,6 +46,25 @@ const AnimalGallery = () => {
     }
   }, [animals]);
 
+  const shakeButton = () => {
+    anime({
+      targets: '.shake-button',
+      translateX: [
+        { value: -10, duration: 100 },
+        { value: 10, duration: 100 },
+        { value: -10, duration: 100 },
+        { value: 10, duration: 100 },
+        { value: 0, duration: 100 }
+      ],
+      easing: 'easeInOutQuad'
+    });
+  };
+
+  useEffect(() => {
+    shakeButton();
+  }, []);
+
+
   return (
     <div>
       <div className="container">
@@ -82,7 +101,7 @@ const AnimalGallery = () => {
             Cat
           </label>
         </div>
-        <button onClick={fetchAnimal}>Add Animal</button>
+        <button className="shake-button" onClick={fetchAnimal}>Add Animal</button>
       </div>
       <div className="animal-gallery-container">
         <div className="animal-gallery-wrapper">
