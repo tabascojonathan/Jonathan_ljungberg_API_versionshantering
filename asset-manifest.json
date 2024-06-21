@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/css/main.b91a0930.css",
+    "main.js": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/js/main.c28179fd.js",
+    "static/js/453.11dbb44a.chunk.js": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/js/453.11dbb44a.chunk.js",
+    "index.html": "/%7BJonathan_ljungberg_API_versionshantering%7D/index.html",
+    "main.b91a0930.css.map": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/css/main.b91a0930.css.map",
+    "main.c28179fd.js.map": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/js/main.c28179fd.js.map",
+    "453.11dbb44a.chunk.js.map": "/%7BJonathan_ljungberg_API_versionshantering%7D/static/js/453.11dbb44a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b91a0930.css",
+    "static/js/main.c28179fd.js"
+  ]
+}
