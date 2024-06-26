@@ -84,7 +84,7 @@ button:hover {
   transition: all;
   transition-duration: 1.5s;
   animation: fadeInScale 0.5s forwards;
-  filter: blur(10px);
+  filter: blur(4px);
 }
 .animal-image:hover {
   transition: all;
