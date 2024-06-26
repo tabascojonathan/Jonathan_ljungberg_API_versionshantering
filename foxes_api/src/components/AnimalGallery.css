@@ -86,11 +86,6 @@ button:hover {
   animation: fadeInScale 0.6s forwards;
   filter: blur(0px);
 }
-.animal-image:hover {
-  transition: all;
-  transition-duration: 0.2s;
-  filter: brightness(1.5)
-}
 
 @keyframes fadeInScale {
   to {
